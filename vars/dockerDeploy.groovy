@@ -1,4 +1,4 @@
 def call() {
     echo "Deploying Application"
-    sh "docker-compose down && docker-compose up -d"
+    sh "docker compose down && docker compose up -d"
 }
